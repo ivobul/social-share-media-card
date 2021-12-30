@@ -1,1 +1,1 @@
-# social-share-media-card
+# Social Share Media Card
