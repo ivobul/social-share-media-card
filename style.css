@@ -1,0 +1,202 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Sizing - Height */
+body {
+  min-height: 100vh;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Basic rules */
+.body {
+  background: rgba(207, 80, 99, 0.692);
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 30px;
+}
+
+.main {
+  flex-basis: 400px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 3px rgba(59, 34, 25, 0.541);
+  color: #3B2219;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card__header {
+  flex: 2;
+  display: flex;
+}
+
+.card__body {
+  flex: 1;
+  padding: 30px 20px 0 30px;
+}
+
+.card__quote {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.card__quote-source {
+  display: flex;
+  font-weight: bold;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.card__footer {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  padding: 15px 20px 15px 30px;
+}
+
+.card__link {
+  font-size: 1.2rem;
+  opacity: .8;
+}
+
+.card__link:first-child {
+  margin-right: 10px;
+}
+
+.card__link:focus {
+  color: #B32059;
+}
+
+.card__link:hover {
+  color: #AF4039;
+}
+
+.card__link:active {
+  color: #CF5063;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.345);
+  display: flex;
+}
+
+.box--hide {
+  display: none;
+}
+
+.box__icon {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.6rem;
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.box__icon:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.box__icon-twitter,
+.box__icon-facebook {
+  border-right: 1px solid rgba(241, 241, 241, 0.363);
+}
+
+.box__icon-twitter:visited,
+.box__icon-facebook:visited,
+.box__icon-pinterest:visited {
+  color: #fff;
+}
+
+.box__icon-twitter:hover {
+  color: #00acee;
+}
+
+.box__icon-facebook:hover {
+  color: #395693;
+}
+
+.box__icon-pinterest:hover {
+  color: #b7081b;
+}
