@@ -81,7 +81,6 @@ a {
 .body {
   background: rgba(207, 80, 99, 0.692);
   font-family: 'Lato', sans-serif;
-  font-size: 1rem;
 }
 
 .container {
@@ -93,7 +92,7 @@ a {
 }
 
 .main {
-  flex-basis: 400px;
+  flex-basis: 350px;
 }
 
 .card {
@@ -106,12 +105,10 @@ a {
 }
 
 .card__header {
-  flex: 2;
   display: flex;
 }
 
 .card__body {
-  flex: 1;
   padding: 30px 20px 0 30px;
 }
 
@@ -130,14 +127,12 @@ a {
 .card__footer {
   align-items: center;
   display: flex;
-  flex: 1;
   justify-content: space-around;
   padding: 15px 20px 15px 30px;
 }
 
 .card__link {
-  font-size: 1.2rem;
-  opacity: .8;
+  font-size: 1.1rem;
 }
 
 .card__link:first-child {
